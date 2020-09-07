@@ -1,0 +1,13 @@
+#APP CONFIGURATION
+spring:
+  application:
+    name: client-info-service
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.100:37017/bank_app
+
+server:
+  port: 8083
+
+services:
+  bank-info-service-port: 8082
